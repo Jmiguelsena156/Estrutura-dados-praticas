@@ -66,7 +66,7 @@ visitando apenas o x2 x3 e x4.
 
 19. Escreva um programa com uma função que recebe um ponteiro de inicio do vetor de pessoa com nome, sexo e idade, e determine o homem e a mulher com a maior idade e com a idade mais próximo da média.
 
-20. Escreva um programa com uma função que recebe um ponteiro de inicio do vetor de pessoa com nome, peso e altura, e informe as pessoas com o IMC menores do que 18.5 e maiores do que 30.0. Lembrando a formula do IMC é `IMC = peso / (altura **2)`.
+20. Escreva um programa com uma função que recebe um ponteiro de inicio do vetor de pessoa com nome, peso e altura, e informe as pessoas com o IMC menores do que 18.5 e maiores do que 24.5. Lembrando a formula do IMC é `IMC = peso / (altura **2)`.
 
 ## Estruturas Autorreferencial
 
