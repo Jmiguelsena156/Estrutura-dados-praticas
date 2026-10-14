@@ -103,32 +103,73 @@ visitando apenas o x2 x3 e x4.
   mover_maior([3, 7, 9, 4, 10, 2, 3, 1, 8, 2]) = [10, 3, 7, 9, 4, 2, 3, 1, 8, 2]
   ```
 
-33. Escreva um programa com uma função, que recebe uma lista de 10 números inteiros, e desloque os números primos para as primeiras posições com o resto permanendo na mesma ordem. Exemplo:
+33. Escreva um programa com uma função, que recebe uma lista de 10 números inteiros, e desloque os números pares para o inicio mantendo a ordem e com resto permanendo na mesma ordem. Exemplo:
+
   ```
-  mover_maior([3, 7, 9, 4, 10, 2, 3, 1, 8, 2]) = [2, 2, 3, 3, 7, 9, 4, 10, 1, 8]
+  mover_pares([3, 7, 9, 4, 10, 2, 3, 1, 8, 2]) = [4, 10, 2, 8, 2, 3, 7, 9, 3, 1]
+  ```
+34. Escreva um programa com uma função, que receba uma lista de 15 nomes de pessoas ordenado e troque o nome da primeira pessoa por outro e deixe ordenado apos a troca. Exemplo:
+  ```
+  [
+    "Ana",
+    "Beatriz",
+    "Bernilson",
+    "Carlos",
+    "Carlos Miguel",
+    "Gabriel",
+    "Layara",
+    "Natan",
+    "Nayara",
+    "Nicolas",
+    "Noylan",
+    "Ozequiel",
+    "Pandora",
+    "Raquel",
+    "Vanessa"
+  ] ->
+  [
+    "Beatriz",
+    "Bernilson",
+    "Carlos",
+    "Carlos Miguel",
+    "Gabriel",
+    "Layara",
+    "Natan",
+    "Nayara",
+    "Nicolas",
+    "Noylan",
+    "Ozequiel",
+    "Pandora",
+    "Raquel",
+    "Vanessa",
+    "Yasmim"
+  ]
   ```
 
 ### Ordenação
 
-34. Escreva um programa com uma função, que recebe uma lista de 10 números inteiros, que informe em ordem crescente, depois informe a lista original.
+35. Escreva um programa com uma função, que recebe uma lista de 10 números inteiros, que informe em ordem crescente, depois informe a lista original.
 
-35. Escreva um programa com uma função, que recebe uma lista de 10 números inteiros, que ordene em ordem crescente.
+36. Escreva um programa com uma função, que recebe uma lista de 10 números inteiros, que ordene em ordem crescente.
 
-36. Escreva um programa com uma função, que recebe uma lista de 10 números inteiros positivos, que ordene em ordem do número de divisores crescente.
+37. Escreva um programa com uma função, que recebe uma lista de 10 números inteiros positivos, que ordene em ordem do número de divisores crescente, se os número de divisores forem os mesmos, ordene em ordem crescente.
 
-37. Escreva um programa com uma função, que recebe uma lista de 10 números inteiros positivos, que ordene em ordem lexicográfica.
+38. Escreva um programa com uma função, que recebe uma lista de 10 números inteiros positivos, que ordene em ordem lexicográfica.
 
-38. Escreva um programa com um função que ordena as cartas como da questão 29 .
+39. Escreva um programa com um função que ordena as cartas como da questão 29.
+
+40. Escreva um programa com uma função, que recebe uma lista de 10 números inteiros, que calcule os outliers da lista.
 
 ## Listas Encadeadas
 
-39. Escreva um programa com estrutura de Lista de números inteiros e com as funções de criar Lista, inserir no inicio da Lista, inserir no endereço N da Lista, remover valor do endereço N, verificar se a lista é vazia e remover Lista da memoria.
+41. Escreva um programa com estrutura de Lista de números inteiros e com as funções de criar Lista, inserir no inicio da Lista, inserir no endereço N da Lista, remover valor do endereço N, verificar se a lista é vazia e remover Lista da memoria.
 
-40. Usando o programa da questão 39, Escreva um programa que leia varios números inteiros do usuário até informar o 0, após isso informe em ordem inversa.
+42. Usando o programa da questão 41, Escreva um programa que leia varios números inteiros do usuário até informar o 0, após isso informe em ordem inversa.
 
-41. Usando o programa da questão 39, Escreva um programa que leia varios números inteiros do usuário até informar o 0, após isso informe os valores menores que a média.
+43. Usando o programa da questão 41, Escreva um programa que leia varios números inteiros do usuário até informar o 0, após isso informe os valores menores que a média.
 
-42. Usando o programa da questão 39, Escreva as seguintes funções:
+44. Usando o programa da questão 41, Escreva as seguintes funções:
+* Função length: calcula o tamanho da lista.
 * Função Somar: soma os valores dos endereços correspondentes de 2 listas
 * Função Subtrair: Subtrae os valores dos endereços correspondentes de uma lista pela outra.
 * Função Produto escalar: a soma de todos os produtos dos itens de mesmo endereço da lista A e B.
@@ -138,6 +179,6 @@ visitando apenas o x2 x3 e x4.
 * Função Intersecção: retorne uma Lista com a intersecção das 2 Listas.
 * Função Diferença: retorne uma Lista com Diferença de uma Lista pela outra.
 
-43. Escreva um programa com estrutura de Lista de pessoas (Nome, idade e sexo Biológico) com quartos reservados e simula que no dia 1 adiciona 3 pessoas, no dia 2 remove 1 homem, no dia 3 adiciona 2 mulheres e no dia 4 remove a primeira pessoa que reservou um quarto.
+45. Escreva um programa com estrutura de Lista de pessoas (Nome, idade e sexo Biológico) com quartos reservados e simula que no dia 1 adiciona 3 pessoas, no dia 2 remove 1 homem, no dia 3 adiciona 2 mulheres e no dia 4 remove a primeira pessoa que reservou um quarto.
 
-44. Escreva um programa com estrutura de lista de turmas numa escolas e em cada turma tem uma lista de alunos (Matricula aleatória) e simula que no mês 1 foi adicionado 2 turmas, uma com 30 alunos e outro com 25 alunos, no mês 2 a metade da turma com 25 alunos foram substituido e adicionaram mais 3 alunos e no mês 3 foram adicionado uma nova turma com 40 alunos.
+46. Escreva um programa com estrutura de lista de turmas numa escolas e em cada turma tem uma lista de alunos (Matricula aleatória) e simula que no mês 1 foi adicionado 2 turmas, uma com 30 alunos e outro com 25 alunos, no mês 2 a metade da turma com 25 alunos foram substituido e adicionaram mais 3 alunos e no mês 3 foram adicionado uma nova turma com 40 alunos.
