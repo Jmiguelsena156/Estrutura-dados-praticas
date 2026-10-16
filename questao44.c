@@ -1,4 +1,4 @@
-// Programa 44 Não completa
+// Programa 44
 #include <stdio.h>
 #include "Lista.h"
 #include <stdlib.h>
@@ -112,6 +112,67 @@ Lista *Concatenar_Alternada(Lista *lst1, Lista *lst2) {
     return resultado;
 }
 
+int valor_presente(Lista *lst, int valor) {
+    Lista *p = lst;
+
+    while (p != NULL) {
+        if (p->valor == valor) {
+            return 1;
+        }
+        p = p->prox;
+    }
+
+    return 0;
+}
+
+Lista *Uniao_Listas(Lista *lst1, Lista *lst2) {
+    Lista *p, *resultado;
+
+    resultado = criar_lista();
+
+    for (p = lst1; p != NULL; p = p->prox) {
+        if (!valor_presente(resultado, p->valor)) {
+            resultado = inserir_valor(resultado, p->valor);
+        }
+    }
+
+    for (p = lst2; p != NULL; p = p->prox) {
+        if (!valor_presente(resultado, p->valor)) {
+            resultado = inserir_valor(resultado, p->valor);
+        }
+    }
+    
+    return resultado;
+}
+
+Lista *Interseccao_Listas(Lista *lst1, Lista *lst2) {
+    Lista *p, *resultado;
+
+    resultado = criar_lista();
+
+    for (p = lst1; p != NULL; p = p->prox) {
+        if (!valor_presente(resultado, p->valor) && valor_presente(lst2, p->valor)) {
+            resultado = inserir_valor(resultado, p->valor);
+        }
+    }
+    
+    return resultado;
+}
+
+Lista *Diferenca_Listas(Lista *lst1, Lista *lst2) {
+    Lista *p, *resultado;
+
+    resultado = criar_lista();
+
+    for (p = lst1; p != NULL; p = p->prox) {
+        if (!valor_presente(resultado, p->valor) && !valor_presente(lst2, p->valor)) {
+            resultado = inserir_valor(resultado, p->valor);
+        }
+    }
+    
+    return resultado;
+}
+
 int main() {
     Lista *lst1, *lst2, *lst3;
 
@@ -158,6 +219,27 @@ int main() {
         lst3 = Concatenar_Alternada(lst1, lst2);
 
         printf("\nA concatenacao das lista eh: ");
+        imprimir_lista(lst3);
+        printf("\n");
+        deletar_lista(lst3);
+
+        lst3 = Uniao_Listas(lst1, lst2);
+
+        printf("\nA Uniao das lista eh: ");
+        imprimir_lista(lst3);
+        printf("\n");
+        deletar_lista(lst3);
+
+        lst3 = Interseccao_Listas(lst1, lst2);
+
+        printf("\nA Interseccao das lista eh: ");
+        imprimir_lista(lst3);
+        printf("\n");
+        deletar_lista(lst3);
+
+        lst3 = Diferenca_Listas(lst1, lst2);
+
+        printf("\nA diferença das lista eh: ");
         imprimir_lista(lst3);
         printf("\n");
     }
