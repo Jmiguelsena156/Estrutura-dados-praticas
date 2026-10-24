@@ -182,3 +182,9 @@ visitando apenas o x2 x3 e x4.
 45. Escreva um programa com estrutura de Lista de pessoas (Nome, idade e sexo Biológico) com quartos reservados e simula que no dia 1 adiciona 3 pessoas, no dia 2 remove 1 homem, no dia 3 adiciona 2 mulheres e no dia 4 remove a primeira pessoa que reservou um quarto.
 
 46. Escreva um programa com estrutura de lista de turmas numa escolas e em cada turma tem uma lista de alunos (Matricula aleatória) e simula que no mês 1 foi adicionado 2 turmas, uma com 30 alunos e outro com 25 alunos, no mês 2 a metade da turma com 25 alunos foram substituido e adicionaram mais 3 alunos e no mês 3 foram adicionado uma nova turma com 40 alunos.
+
+47. Escreva um programa com estrutura de lista de pontos (x, y) de um poligono, sabendo que o poligono é simples, ou seja, que as linhas não entrelaçam entre si, e calcule o perimetro, a area, o maior lado, o menor lado, o ponto central. Verifique tambem, se tem ângulos retos e obtusos no poligono, se é convexo ou é regular.
+
+48. Dado uma função de polinomio `f(x) = an*x^n + a(n-1)*x^(n-1) + a(n-2)*x^(n-2) + ... + a2*x^2 + a1*x + a0` como um lista com os coeficiente. Calcule o resultado de `f(0), f(-1), f(2)` e calcule a nova lista de `f(x+1) e f(3*x^2 - 1)`.
+
+49. Escreva um programa com um estrutura de lista duplamente encadeada circular de números inteiros ordenados e faça uma função recursiva que faça uma busca binario na lista para encontrar o número.
