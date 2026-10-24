@@ -3,6 +3,12 @@
 
 typedef struct lista Lista;
 
+struct lista
+{
+    int valor;
+    Lista *prox;
+};
+
 Lista *criar_lista();
 
 Lista *inserir_valor(Lista *lst, int valor);

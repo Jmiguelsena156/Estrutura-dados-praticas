@@ -2,12 +2,6 @@
 #include <stdlib.h>
 #include "Lista.h"
 
-struct lista
-{
-    int valor;
-    Lista *prox;
-};
-
 Lista *criar_lista() {
     return NULL;
 }
