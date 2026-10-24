@@ -1,7 +1,7 @@
 // Programa 44
 #include <stdio.h>
-#include "Lista.h"
 #include <stdlib.h>
+#include "Lista.h"
 
 const int TAMANHO = 10;
 

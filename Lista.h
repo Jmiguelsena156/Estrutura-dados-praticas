@@ -1,16 +1,7 @@
 #ifndef LISTA_H
 #define LISTA_H
 
-#include <stdio.h>
-#include <stdlib.h>
-
 typedef struct lista Lista;
-
-struct lista
-{
-    int valor;
-    Lista *prox;
-};
 
 Lista *criar_lista();
 

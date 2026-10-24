@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-typedef struct lista Lista;
+#include "Lista.h"
 
 struct lista
 {
