@@ -188,3 +188,36 @@ visitando apenas o x2 x3 e x4.
 48. Dado uma função de polinomio `f(x) = an*x^n + a(n-1)*x^(n-1) + a(n-2)*x^(n-2) + ... + a2*x^2 + a1*x + a0` como um lista com os coeficiente. Calcule o resultado de `f(0), f(-1), f(2)` e calcule a nova lista de `f(x+1) e f(3*x^2 - 1)`.
 
 49. Escreva um programa com um estrutura de lista duplamente encadeada circular de números inteiros ordenados e faça uma função recursiva que faça uma busca binario na lista para encontrar o número.
+
+## Pilhas
+
+50. Escreva um programa que crie uma pilha e realize as operações seguinte e desempilha  tudo após o final mostrando os resultados:
+```
+empilhar(S, 4);
+empilhar(S, 1);
+empilhar(S, 3);
+desempilhar(S);
+empilhar(S, 8);
+desempilhar(S);
+```
+
+51. Com base na questão anterior, escreva um programa que use 3 pilhas, no primeiro com 5 primeiros números inteiros. Após isso, crie uma função que desloque os números da primeira pilha para a terceira na mesma ordem, só usando empilhar e desempilhar e sem outras variaveis.
+
+52. Com base na questão 50, escreva um programa de interface, para que o usuário possa empilhar, desempilhar ou querer imprimir os valores e fechar o programa.
+
+53. Escreva um programa com TAD pilha de Operações matemática usando notação pósfixa.
+```
+Empilhar(5);
+Empilhar(3);
+Multiplicar(pilha);
+Empilhar(10);
+Somar(pilha);
+Resultado = 25
+```
+
+54. Matheus ficou preso em um labirinto com apenas um caminho possível e uma saída. Então Matheus sabe o Método da Mão na Parede, que escolhe um lado direito ou esquerdo e resolve o labirinto sem tirar a mão da parede até o final. Com Base nisso, escreva um programa que simule um labirinto de matriz formado 0 (Caminho) e 1 (Muro) para encontrar a saída do labirinto e imprima os passos de quando tiver mais de um caminho possivel (como direita, frente ou esquerda, em relação a pessoa dentro do labirinto) para ir direto para o final.
+
+55. Water Sort Puzzle é um jogo de lógica e estratégia viciante cujo objetivo é separar águas coloridas em tubos ou copos até que cada recipiente contenha apenas uma cor pura. Escreva um programa com base nisso, que recebe N copos com N-1 cores e resolve apenas usando a função de trocar, que troca cor do topo do copo Y para copo Z. Lembrando das regras do jogo:
+• Regra de cor: Você só pode despejar a água sobre outra cor idêntica (se houver correspondência no topo).
+• Regra de espaço: O tubo de destino precisa ter espaço livre suficiente para receber o líquido.
+• Conclusão: O nível é concluído quando todos os tubos ficam preenchidos com uma única cor ou ficam vazios.
