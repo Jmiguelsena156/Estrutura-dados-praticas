@@ -187,7 +187,7 @@ visitando apenas o x2 x3 e x4.
 
 48. Dado uma função de polinomio `f(x) = an*x^n + a(n-1)*x^(n-1) + a(n-2)*x^(n-2) + ... + a2*x^2 + a1*x + a0` como um lista com os coeficiente. Calcule o resultado de `f(0), f(-1), f(2)` e calcule a nova lista de `f(x+1) e f(3*x^2 - 1)`.
 
-49. Escreva um programa com um estrutura de lista duplamente encadeada circular de números inteiros ordenados e faça uma função recursiva que faça uma busca binario na lista para encontrar o número.
+49. Escreva um programa com um estrutura de lista, e crie um função que ordene os números em ordem crescente na lista encadeada, para isso armazene os endereços em um vetor.
 
 ## Pilhas
 
@@ -201,7 +201,7 @@ empilhar(S, 8);
 desempilhar(S);
 ```
 
-51. Com base na questão anterior, escreva um programa que use 3 pilhas, no primeiro com 5 primeiros números inteiros. Após isso, crie uma função que desloque os números da primeira pilha para a terceira na mesma ordem, só usando empilhar e desempilhar e sem outras variaveis.
+51. Com base na questão anterior, escreva um programa que use 3 pilhas, no primeiro com 5 primeiros números inteiros. Após isso, crie uma função que desloque os números da primeira pilha para a terceira mantendo a mesma ordem, só usando empilhar e desempilhar e sem outras variaveis.
 
 52. Com base na questão 50, escreva um programa de interface, para que o usuário possa empilhar, desempilhar ou querer imprimir os valores e fechar o programa.
 
