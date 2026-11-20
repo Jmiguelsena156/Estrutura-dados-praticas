@@ -221,3 +221,16 @@ Resultado = 25
 • Regra de cor: Você só pode despejar a água sobre outra cor idêntica (se houver correspondência no topo).
 • Regra de espaço: O tubo de destino precisa ter espaço livre suficiente para receber o líquido.
 • Conclusão: O nível é concluído quando todos os tubos ficam preenchidos com uma única cor ou ficam vazios.
+
+## Filas
+
+56. Escreva um programa com o tipo estruturado filas e com suas respectivas funções e no main execute essas funções:
+```
+enfileirar(f, 1);
+enfileirar(f, 2);
+enfileirar(f, 3);
+desenfileirar(f);
+enfileirar(f, 4);
+enfileirar(f, 5);
+desenfileirar(f);
+```
